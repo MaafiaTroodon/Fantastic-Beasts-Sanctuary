@@ -1,0 +1,57 @@
+/* For information on how to implement Bootstrap and how to apply your own custom CSS, visit: https://getbootstrap.com/docs/5.3/getting-started/introduction/  */
+/* Custom CSS */
+body {
+	background-color: #F2F0EA;
+}
+
+body .container {
+	background-color: #fff;
+	margin-top: 5em;
+	border: solid #000000;
+	border-radius: 5px;
+	padding: 2.5em;
+}
+#addCreatureForm label, #addCreatureForm button {
+	font-size: 1.2em;
+	margin-top: 1em;
+}
+#addCreatureForm button {
+	margin-bottom: 1em;
+}
+#addCreatureForm input {
+	padding: 1.5em;
+}
+ul li {
+	padding: .6em;
+	font-size: 1em;
+	font-style: italic;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+.card img {
+    display: block;
+    margin-top: 10px;
+    max-width: 100px;
+    border-radius: 5px;
+}
+/* Button Styling */
+#addCreatureForm button {
+    background-color: #A8D5E3;
+    color: black;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effect */
+#addCreatureForm button:hover {
+    background-color: #E5E3DC; /* Slightly darker shade */
+    transform: scale(1.05); /* Slight zoom effect */
+    border-color: #aaa;
+    cursor: pointer;
+}
+
